@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2196123797986719510
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 0d05c4d97a072e341a7c0e9b73d8699e, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d05c4d97a072e341a7c0e9b73d8699e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d05c4d97a072e341a7c0e9b73d8699e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d05c4d97a072e341a7c0e9b73d8699e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 14.58
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d05c4d97a072e341a7c0e9b73d8699e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d05c4d97a072e341a7c0e9b73d8699e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d05c4d97a072e341a7c0e9b73d8699e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d05c4d97a072e341a7c0e9b73d8699e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d05c4d97a072e341a7c0e9b73d8699e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d05c4d97a072e341a7c0e9b73d8699e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d05c4d97a072e341a7c0e9b73d8699e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d05c4d97a072e341a7c0e9b73d8699e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d05c4d97a072e341a7c0e9b73d8699e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 539e4ff68da836b47a4cb40f17ee4ae6, type: 2}
+    - target: {fileID: 919132149155446097, guid: 0d05c4d97a072e341a7c0e9b73d8699e, type: 3}
+      propertyPath: m_Name
+      value: sector_helix_jump Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0d05c4d97a072e341a7c0e9b73d8699e, type: 3}
+--- !u!1 &1349772725816298055 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0d05c4d97a072e341a7c0e9b73d8699e, type: 3}
+  m_PrefabInstance: {fileID: 2196123797986719510}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &382219855383530618
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349772725816298055}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: -1
+  m_Mesh: {fileID: 5411817793440039318, guid: 0d05c4d97a072e341a7c0e9b73d8699e, type: 3}
+--- !u!114 &1495454067345073168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349772725816298055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fac6726630f1204790b328ae6488b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGood: 1
+  GoodMaterial: {fileID: 2100000, guid: 539e4ff68da836b47a4cb40f17ee4ae6, type: 2}
+  BadMaterial: {fileID: 2100000, guid: 64012ded311418b4eab223fddff0cf56, type: 2}
